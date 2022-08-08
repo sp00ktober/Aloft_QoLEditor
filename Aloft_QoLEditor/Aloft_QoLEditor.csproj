@@ -285,6 +285,7 @@
     <Compile Include="Aloft_QoLEditor.cs" />
     <Compile Include="Patches\Transpiler\IslandEditor_CanvasEditor_Transpiler.cs" />
     <Compile Include="Patches\Transpiler\IslandEditor_Input_Transpiler.cs" />
+    <Compile Include="Patches\Transpiler\IslandEditor_Terrain_Transpiler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

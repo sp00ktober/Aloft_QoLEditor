@@ -17,3 +17,13 @@ The mod uses Harmony and BepInEx to patch the game at runtime. Currently there i
 - In the BepInEx folder you should now find a `plugins` folder, copy the mod .dll inside there
 
 You can also see the official installation guide [here](https://github.com/BepInEx/BepInEx/wiki/Installation)
+
+### Changelog
+
+#### 0.0.2
+- Place and move object further than the default max 100 range
+
+#### 0.0.1
+- Use space and ctrl keys to move the camera up and down
+- Use your mouse while the camera is moving to rotate it
+- Hold shift while dragging an object to drag it on the Y axis

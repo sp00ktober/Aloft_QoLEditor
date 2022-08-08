@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace Aloft_QoLEditor
 {
-    [BepInPlugin("com.sp00ktober.Aloft_QoLEditor", "Aloft_QoLEditor", "0.0.1")]
+    [BepInPlugin("com.sp00ktober.Aloft_QoLEditor", "Aloft_QoLEditor", "0.0.2")]
     public class Aloft_QoLEditor : BaseUnityPlugin
     {
         private void Awake()
@@ -20,7 +20,7 @@ namespace Aloft_QoLEditor
 
             try
             {
-                Debug.Log("Applying patches from Aloft_QoLEditor 0.0.1");
+                Debug.Log("Applying patches from Aloft_QoLEditor 0.0.2");
 
                 Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly(), "com.sp00ktober.de");
 
