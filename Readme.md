@@ -10,6 +10,11 @@ This is a very tiny mod that adds the following QoL features to [Aloft](https://
 The mod uses Harmony and BepInEx to patch the game at runtime. Currently there is no modmanager support present (but this will change in the future hopefully).
 
 ### How can i use this?
+
+#### Automatic installation
+Install either [Thunderstore Mod Manager](https://www.overwolf.com/app/Thunderstore-Thunderstore_Mod_Manager) or [r2modman](https://thunderstore.io/package/ebkr/r2modman/) and install the mod from there.
+
+#### Manual installation
 - Get the latest release of the 5.x version of BepInEx from [here](https://github.com/BepInEx/BepInEx/releases) (must be compatible to your system, most likely x64)
 - Extract the .zip and copy the `BepInEx` folder into your games root folder (probably `C\Program Files (x86)\Steam\steamapps\common\Aloft Demo\`)
 - Copy the `winhttp.dll` and `doorstop_config.ini` also to your games root folder.

@@ -1,0 +1,9 @@
+{
+  "name": "Aloft_QoLEditor",
+  "description": "Tiny mod that adds some QoL features to the island editor.",
+  "version_number": "0.0.2",
+  "dependencies": [
+    "BepInEx-BepInExPack_Starsand-5.4.16"
+  ],
+  "website_url": "https://github.com/sp00ktober/Aloft_QoLEditor"
+}
